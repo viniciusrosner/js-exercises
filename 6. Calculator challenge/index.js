@@ -17,17 +17,17 @@ let finalResult = document.getElementById("sum-el")
 
 const add = () => {
   result = num1 + num2
-  finalResult.textContent = result 
+  finalResult.textContent = "Sum: " + result
 }
 const subtract = () => {
   result = num1 - num2
-  finalResult.textContent = result 
+  finalResult.textContent = "Sum: " + result
 }
 const divide = () => {
   result = num1 / num2
-  finalResult.textContent = result 
+  finalResult.textContent = "Sum: " + result
 }
 const multiply = () => {
   result = num1 * num2
-  finalResult.textContent = result 
+  finalResult.textContent = "Sum: " + result
 }
